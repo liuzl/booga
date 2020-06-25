@@ -19,3 +19,9 @@ mv texsmart-sdk-0.1.1-s/data ./
 pip install fastapi
 pip install uvicorn
 ```
+
+## 启动服务
+```sh
+# uvicorn texsmart_server:app --reload --host 0.0.0.0 --port 9080
+./run.sh
+```
